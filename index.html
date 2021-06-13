@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bubbling</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <h1>Bubbling demo</h1>
+
+  <button>Display video</button>
+
+  <div id="videoBox" class="hidden">
+    <video>
+      <source src="videos/rabbit320.mp4" type="video/mp4">
+      <source src="videos/rabbit320.webm" type="video/webm">
+      <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+    </video>
+  </div>
+  <br>
+  <br>
+  <input type="text" class="firstValue"><input type="text" class="secondValue">
+  <div id="buttons">
+    <button id="add">+</button>
+    <button id="rest">-</button>
+    <button id="multiply">*</button>
+  </div>
+  <p id="result"></p>
+
+
+</body>
+
+</html>
